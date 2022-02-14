@@ -8,9 +8,9 @@ I want to view a list of saved bookmarks
 
 Verbs       Nouns
 -------------------
-view        list
-            bookmarks
-
+view    |    list
+        |   bookmarks
+        |
 
 ![](./class_model.png)
 
