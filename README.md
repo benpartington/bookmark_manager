@@ -6,11 +6,10 @@ As a user
 So that I can revisit intersting web pages 
 I want to view a list of saved bookmarks
 
-Verbs       Nouns
--------------------
-view    |    list
-        |   bookmarks
-        |
+| Verbs       | Nouns       |
+| ----------- | ----------- |
+| view        | bookmarks   |
+|             | list        |
 
 ![](./class_model.png)
 
