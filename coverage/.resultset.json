@@ -1,6 +1,16 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/benpartington/Desktop/Projects/bookmark_manager/spec/features/bookmarks_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/benpartington/Desktop/Projects/bookmark_manager/spec/features/homepage_spec.rb": {
         "lines": [
           1,
@@ -12,6 +22,6 @@
         ]
       }
     },
-    "timestamp": 1644852747
+    "timestamp": 1644853508
   }
 }
