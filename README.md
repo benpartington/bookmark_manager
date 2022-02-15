@@ -22,3 +22,11 @@ psql Instructions
 * Type 'CREATE DATABASE bookmark_manager;'
 * Connect to the database with '\c bookmark_manager'
 * Create a new table by typing 'CREATE TABLE bookmarks(id SERIAL PRIMARY KEY, url VARCHAR(60));'
+
+## How to set up test database
+Run the following commands within psql:
+~~~~
+$> psql
+usernameadmin=# CREATE DATABASE "bookmark_manager_test";
+username=# CREATE TABLE bookmarks(id SERIAL PRIMARY KEY, url VARCHAR(60));
+~~~~
