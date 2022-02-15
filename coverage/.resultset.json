@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/jwinterschladen/Documents/Makers/pair-programming/bookmark_manager/spec/bookmark_spec.rb": {
+      "/Users/benpartington/Desktop/Projects/bookmark_manager/spec/bookmark_spec.rb": {
         "lines": [
           1,
           null,
@@ -18,7 +18,7 @@
           null
         ]
       },
-      "/Users/jwinterschladen/Documents/Makers/pair-programming/bookmark_manager/spec/features/bookmarks_spec.rb": {
+      "/Users/benpartington/Desktop/Projects/bookmark_manager/spec/features/bookmarks_spec.rb": {
         "lines": [
           1,
           1,
@@ -28,7 +28,7 @@
           null
         ]
       },
-      "/Users/jwinterschladen/Documents/Makers/pair-programming/bookmark_manager/spec/features/homepage_spec.rb": {
+      "/Users/benpartington/Desktop/Projects/bookmark_manager/spec/features/homepage_spec.rb": {
         "lines": [
           1,
           1,
@@ -39,6 +39,6 @@
         ]
       }
     },
-    "timestamp": 1644855022
+    "timestamp": 1644935248
   }
 }

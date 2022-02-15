@@ -5,9 +5,9 @@ describe Bookmark do
     it 'returns the list of all saved bookmarks' do
       bookmarks = Bookmark.list_all
 
-      expect(bookmarks).to include("bookmark_1")
-      expect(bookmarks).to include("bookmark_2")
-      expect(bookmarks).to include("bookmark_3")
+      expect(bookmarks).to include("http://www.makersacademy.com/")
+      expect(bookmarks).to include("http://www.google.com/")
+      expect(bookmarks).to include("http://www.destroyallsoftware.com")
     end
   end
 end
