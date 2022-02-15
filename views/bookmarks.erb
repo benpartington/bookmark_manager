@@ -1,5 +1,21 @@
+<FONT COLOR="#ff0000">
+<h1>Bookmark Manager</h1>
+<br>
+<FONT COLOR=white>
+Please enter the URL you would like to bookmark:
+<br>
+<br>
+<form action="/create" method="post">
+  <input type="text" name="url">
+  <input type="submit" value="Add Bookmark">
+</form>
+
+<u><h2>Bookmarks</h2></u>
 <ul>
 <% @bookmarks.each do |bookmark| %>
 <li><%= bookmark %></li>
 <% end %>
 </ul>
+
+
+
