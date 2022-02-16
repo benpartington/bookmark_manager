@@ -17,7 +17,7 @@ I want to view a list of saved bookmarks
 
 ## User Story 2:
 As a user
-so I can remember my bookmarks
+So I can remember my bookmarks
 I want to add a bookmark to my saved bookmarks
 
 
@@ -26,7 +26,7 @@ user adds bookmark into a text box
 user clicks submit button to save the bookmark
 user then sees a refreshed list of bookmarks
 
-there a post to ccontroller using /create
+there a post to controller using /create
 the route /create adds a book mark to the database
 the route redirects to /bookmarks
 /bookmarks route calls bookmarks.erb

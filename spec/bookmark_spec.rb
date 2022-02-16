@@ -11,7 +11,6 @@ describe Bookmark do
       described_class.create('http://www.destroyallsoftware.com')
       described_class.create('http://www.google.com/')
 
-
       bookmarks = described_class.list_all
 
       expect(bookmarks).to include("http://www.makersacademy.com/")
