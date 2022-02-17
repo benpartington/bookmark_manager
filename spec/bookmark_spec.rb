@@ -7,9 +7,9 @@ describe Bookmark do
     it 'returns the list of all saved bookmarks' do
       connection = PG.connect(dbname: 'bookmark_manager_test')
 
-      Bookmark.create('http://www.makersacademy.com/')
-      Bookmark.create('http://www.destroyallsoftware.com')
-      Bookmark.create('http://www.google.com/')
+      Bookmark.create(url: 'http://www.makersacademy.com/', title: 'Makers Academy')
+      Bookmark.create(url: 'http://www.destroyallsoftware.com', title: 'Destroy All Software')
+      Bookmark.create(url: 'http://www.google.com/', title: 'Google')
 
       bookmarks = Bookmark.list_all
 

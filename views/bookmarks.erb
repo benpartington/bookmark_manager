@@ -13,9 +13,13 @@ Please enter the URL you would like to bookmark:
 
 <u><h2>Bookmarks</h2></u>
 <ul>
-<% @bookmarks.each do |bookmark| %>
-<li><%= bookmark %></li>
-<% end %>
+  <% @bookmarks.each do |bookmark| %>
+    <li>
+      <a href="<%= bookmark.url %>">
+        <%= bookmark.title %>
+      </a>
+    </li>
+  <% end %>
 </ul>
 
 
