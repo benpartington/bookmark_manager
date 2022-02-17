@@ -1,7 +1,9 @@
+require 'pg'
+
 feature 'bookmarks' do
   scenario 'viewing list of bookmarks' do
     
-    Bookmark.create(url: 'http://www.makersacademy.com/', title: 'Makers Academy')
+    Bookmark.create(url: 'http://www.makersacademy.com', title: 'Makers Academy')
     Bookmark.create(url: 'http://www.destroyallsoftware.com', title: 'Destroy All Software')
     Bookmark.create(url: 'http://www.google.com', title: 'Google')
    
