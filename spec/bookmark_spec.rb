@@ -7,11 +7,11 @@ describe Bookmark do
     it 'returns the list of all saved bookmarks' do
       connection = PG.connect(dbname: 'bookmark_manager_test')
 
-      described_class.create('http://www.makersacademy.com/')
-      described_class.create('http://www.destroyallsoftware.com')
-      described_class.create('http://www.google.com/')
+      Bookmark.create('http://www.makersacademy.com/')
+      Bookmark.create('http://www.destroyallsoftware.com')
+      Bookmark.create('http://www.google.com/')
 
-      bookmarks = described_class.list_all
+      bookmarks = Bookmark.list_all
 
       expect(bookmarks).to include("http://www.makersacademy.com/")
       expect(bookmarks).to include("http://www.google.com/")
@@ -22,8 +22,10 @@ describe Bookmark do
   # Bookmark.create(url)
   describe '#create' do
     it "adds a bookmark to the database" do
-      described_class.create("www.bensworld.com")
-      expect(described_class.list_all).to include 'www.bensworld.com'
+      bookmark = Bookmark.create(url: "http://bensworld.com", title: 'Test Bookmark').first
+      
+      expect(bookmark['url']).to eq 'http://bensworld.com'
+      expect(bookmark['title']).to eq 'Test Bookmark'
     end
   end
 
